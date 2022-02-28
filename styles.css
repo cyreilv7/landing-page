@@ -35,7 +35,7 @@ a {
 }
 
 .primary-nav {
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .secondary-nav {
