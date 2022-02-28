@@ -1,8 +1,11 @@
 body {
     font-family: "Roboto", sans-serif;
+    margin: 0;
 }
-.navbar {
-    background-color: white;
+
+.navbar,
+.hero {
+    background-color: #1F2937;
 }
 
 ul {
@@ -11,7 +14,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: #444444;
+    color: #F9FAF8;
 }
 
 .navbar .container {
@@ -32,6 +35,8 @@ a {
 .logo {
     font-size: 24px;
     flex: 1 1 auto;
+    margin-left: 1em;
+    margin-top: .5em;
 }
 
 .primary-nav {
