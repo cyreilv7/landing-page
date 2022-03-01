@@ -93,3 +93,38 @@ a {
     color: white;
     font-weight: bold;
 }
+
+/* info section */
+.info-section .container {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+}
+.info-section .product-img-and-descript {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info-header {
+    font-weight: bold;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.pairing {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin-top: 2em;
+}
+
+.pairing img {
+    width: 100px;
+    height: 100px;
+    flex-grow: 2;
+}
+
+.pairing p {
+    flex-grow: 1;
+}
