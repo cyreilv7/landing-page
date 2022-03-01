@@ -17,37 +17,66 @@ a {
     color: #F9FAF8;
 }
 
-.navbar .container {
+.main-container {
     display: flex;
+    flex-direction: column;
 }
 
-/* select all level 1 children of flex container */
-/* .container>* {
-    flex: 1;
-} */
-
-.secondary-nav,
-.primary-nav {
+.container {
+    margin-left: 12em;
+    margin-right: 12em;
     display: flex;
-    flex: 2 1 auto;
+    margin-bottom: 5em;
+}
+
+.main-container>* {
+    flex: 1;
+}
+
+/* navbar section */
+.navbar,
+.hero {
+    background-color: #1F2937;
+}
+
+.navbar .container {
+    margin-top: 1em;
 }
 
 .logo {
     font-size: 24px;
     flex: 1 1 auto;
-    margin-left: 1em;
-    margin-top: .5em;
 }
 
 .primary-nav {
-    justify-content: flex-start;
-}
-
-.secondary-nav {
     justify-content: flex-end;
-    margin-right: 5em;
+    display: flex;
+    flex: 2 1 auto;
+    margin: 0;
 }
 
 .primary-nav li {
-    padding: 0 2em;
+    padding-left: 2em;
+}
+
+/* hero section */
+.hero .left-col,
+.hero .right-col {
+    flex: 1;
+}
+.hero-img {
+    display: block;
+    margin-left: auto;
+    width: 500px;
+}
+
+.hero-main-txt {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.hero-second-txt {
+    font-size: 18px;
+    color: #E5E7EB;
 }
