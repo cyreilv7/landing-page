@@ -67,16 +67,29 @@ a {
 .hero-img {
     display: block;
     margin-left: auto;
-    width: 500px;
+    width: 400px;
+    height: 240px;
 }
 
 .hero-main-txt {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bold;
     color: #F9FAF8;
+    margin-bottom: .5em;
 }
 
 .hero-second-txt {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 1em;
+}
+
+.hero-btn {
+    width: 10em;
+    height: 3em;
+    background-color: #3882F6;
+    border-radius: .6em;
+    border: none;
+    color: white;
+    font-weight: bold;
 }
