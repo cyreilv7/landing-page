@@ -60,6 +60,9 @@ a {
 }
 
 /* hero section */
+.hero .container {
+    margin-bottom: 6em;
+}
 .hero .left-col,
 .hero .right-col {
     flex: 1;
@@ -96,7 +99,7 @@ a {
 
 /* info section */
 .info-section .container {
-    margin-top: 2em;
+    margin-top: 4em;
     display: flex;
     flex-direction: column;
 }
