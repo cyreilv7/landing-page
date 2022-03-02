@@ -146,3 +146,35 @@ a {
 .description a {
     color: black;
 }
+
+/* testimonial section */
+.testimonials-section {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7em;
+    padding-bottom: 7em;
+}
+
+.testimonials-section .container {
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.blockquote {
+    font-size: 25px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.cite {
+    font-weight: bold;
+    align-self: flex-end;
+}
