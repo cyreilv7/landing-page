@@ -26,17 +26,21 @@ a {
     margin-left: 20%;
     margin-right: 20%;
     display: flex;
-    margin-bottom: 5em;
 }
 
 .main-container>* {
     flex: 1;
+    padding-bottom: 5em;
 }
 
 /* navbar section */
 .navbar,
 .hero {
     background-color: #1F2937;
+}
+
+.hero {
+    padding-bottom: 2.5em;
 }
 
 .navbar .container {
@@ -98,8 +102,10 @@ a {
 }
 
 /* info section */
+.info-section {
+    padding-top: 4em;
+}
 .info-section .container {
-    margin-top: 4em;
     display: flex;
     flex-direction: column;
 }
@@ -153,8 +159,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 7em;
-    padding-bottom: 7em;
+    padding-top: 5em;
 }
 
 .testimonials-section .container {
@@ -163,7 +168,6 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 0;
     margin-left: 25%;
     margin-right: 25%;
 }
