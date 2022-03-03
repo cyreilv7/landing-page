@@ -178,3 +178,18 @@ a {
     font-weight: bold;
     align-self: flex-end;
 }
+
+/* cta section */
+.cta-section {
+    margin-top: 3em;
+}
+.cta-section .container {
+    background-color: #3882F6;
+}
+
+.cta-left-col,
+.cta-right-col {
+    flex: 1;
+}
+
+/* does adding margin to the child div add padding to the parent div? */
