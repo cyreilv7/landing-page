@@ -163,6 +163,7 @@ a {
 
 .blockquote {
     font-size: 25px;
+    font-weight: lighter;
     font-style: italic;
     color: #1F2937;
 }
