@@ -150,16 +150,12 @@ a {
 .testimonials-section {
     background-color: #E5E7EB;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 5em;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 .testimonials-section .container {
     flex: 1;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     margin-left: 25%;
     margin-right: 25%;
