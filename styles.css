@@ -33,32 +33,49 @@ a {
 .hero {
     background-color: #1F2937;
 }
-
-.hero {
-    padding-bottom: 1.5em;
+.navbar {
+    padding-top: .25em;
 }
 
 .navbar .container {
-    margin-top: 1em;
+    display: flex;
 }
 
 .logo {
-    font-size: 24px;
     flex: 1 1 auto;
+    display: flex;
+    align-items: flex-start;
+}
+.logo-txt {
+    line-height: 50px;
+    font-size: 24px;
+    flex: 1;
+}
+
+.logo-img {
+    width: 30px;
+    height: auto;
+    padding-top: .25em;
+    margin-right: .5em;
 }
 
 .primary-nav {
     justify-content: flex-end;
     display: flex;
-    flex: 2 1 auto;
+    flex: 1 1 auto;
     margin: 0;
 }
 
 .primary-nav li {
     padding-left: 2em;
+    line-height: 3em;
 }
 
 /* hero section */
+.hero {
+    padding-bottom: 1.5em;
+}
+
 .hero .container {
     margin-bottom: 6em;
 }
